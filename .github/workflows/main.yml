@@ -12,7 +12,7 @@ jobs:
         run: ls -l
       - name: view
         run: cd test
-      - name: view
+      - name: view3
         run: ls -l
       - name: view
       - name: Check out unit tests
