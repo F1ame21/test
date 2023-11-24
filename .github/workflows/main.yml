@@ -1,0 +1,14 @@
+name: Run tests on any Push event
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git clone our repo
+        uses: actions/checkout@v2
+      - name: go to the test folder
+        run: cd .\test\
+      - name: Check out unit tests
+        run: python .\testCircle.py
