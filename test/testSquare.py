@@ -6,7 +6,7 @@ from square import *
 class RectangleTestCase(unittest.TestCase):
     def test_area_zero_value(self):
         res = area(0)
-        self.assertEqual(res, 2)
+        self.assertEqual(res, 0)
         
     def test_area_positive_value(self):
         res = area(10)
