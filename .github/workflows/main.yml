@@ -8,11 +8,5 @@ jobs:
     steps:
       - name: Git clone our repo
         uses: actions/checkout@v2
-      - name: view
-        run: ls -l
-      - name: view
-        run: cd test
-      - name: view3
-        run: ls -l
       - name: Check out unit tests
-        run: python ./test/testCircle.py
+        run: python ./test/*.py
