@@ -7,6 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Git clone our repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v1
+      - name: view
+        run: ls -l
       - name: Check out unit tests
         run: python testCircle.py
