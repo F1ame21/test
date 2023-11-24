@@ -11,4 +11,4 @@ jobs:
       - name: asdsa
         run: cd test
       - name: Check out unit tests
-        run: python .\testCircle.py
+        run: python testCircle.py
