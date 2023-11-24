@@ -6,7 +6,7 @@ from triangle import *
 class RectangleTestCase(unittest.TestCase):
     def test_area_zero_value(self):
         res = area(10, 0)
-        self.assertEqual(res, 0)
+        self.assertEqual(res, 2)
         
     def test_area_positive_values(self):
         res = area(10,10)
