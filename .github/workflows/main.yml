@@ -8,5 +8,7 @@ jobs:
     steps:
       - name: Git clone our repo
         uses: actions/checkout@v2
+      - name: asdsa
+        run: cd test
       - name: Check out unit tests
         run: python .\testCircle.py
