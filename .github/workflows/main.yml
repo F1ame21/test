@@ -14,6 +14,5 @@ jobs:
         run: cd test
       - name: view3
         run: ls -l
-      - name: view
       - name: Check out unit tests
         run: python testCircle.py
