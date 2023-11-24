@@ -3,9 +3,16 @@ name: My-GitHubActions
 on: [push]
 
 jobs:
-  test:
+  test_on_ubuntu:
     runs-on: ubuntu-latest
 
+    steps:
+    - name: start tests
+      run: echo "Hello word"
+
+  test_on_windows:
+    runs-on: windows-latest
+  
     steps:
     - name: start tests
       run: echo "Hello word"
