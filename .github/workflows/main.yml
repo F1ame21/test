@@ -1,0 +1,13 @@
+name: My-GitHubActions
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: [ubuntu-latest, windows-latest]
+
+    steps:
+    - name: start tests
+      run: echo "Hello word"
+    
+    
