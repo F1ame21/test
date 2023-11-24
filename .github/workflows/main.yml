@@ -15,4 +15,4 @@ jobs:
       - name: view3
         run: ls -l
       - name: Check out unit tests
-        run: python testCircle.py
+        run: python ./test/testCircle.py
