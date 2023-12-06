@@ -21,7 +21,7 @@ jobs:
         uses: actions\checkout@v4
       - name: Check out unit tests
         run: |
-          python ./test/testCircle.py
-          python ./test/testRectangle.py
-          python ./test/testSquare.py
-          python ./test/testTriangle.py
+          python .\test\testCircle.py
+          python .\test\testRectangle.py
+          python .\test\testSquare.py
+          python .\test\testTriangle.py
