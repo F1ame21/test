@@ -7,7 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: Git clone our repo
-        uses: actions/checkout@v4
       - name: Check out unit tests
         run: |
           python ./test/testCircle.py
@@ -18,7 +17,6 @@ jobs:
     runs-on: windows-latest
     steps: 
       - name: Git clone our repo
-        uses: actions\checkout@v4
       - name: Check out unit tests
         run: |
           python .\test\testCircle.py
